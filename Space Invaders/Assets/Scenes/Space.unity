@@ -168,8 +168,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 8657448260777635376, guid: e215596e96f7e11489161ef20219d1d6, type: 3}
-  xSpace: 2.2
-  xOffset: -10
+  xSpace: 1.6
+  xOffset: -8
 --- !u!1 &689082203
 GameObject:
   m_ObjectHideFlags: 0

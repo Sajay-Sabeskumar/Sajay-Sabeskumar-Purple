@@ -239,10 +239,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7895aeb0329e4f49bf2fd6bc73a4b80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookSpeed: 10
-  moveSpeed: 10
-  maxSpeed: 10
-  bulletPrefab: {fileID: 0}
+  lookSpeed: 2000
+  moveSpeed: 100
+  maxSpeed: 100
+  bulletPrefab: {fileID: 993454278339877256, guid: 577f2ef77e1f1804fb444e193fd90f3e, type: 3}
 --- !u!50 &756929801
 Rigidbody2D:
   serializedVersion: 4
@@ -367,7 +367,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1485631534}
   - component: {fileID: 1485631533}
-  - component: {fileID: 1485631532}
   m_Layer: 0
   m_Name: Game Manager
   m_TagString: Untagged
@@ -375,19 +374,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1485631532
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485631531}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8aa2787353556904f8bd8723a4b9e9e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  brickPrefab: {fileID: 0}
 --- !u!114 &1485631533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,7 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8aa2787353556904f8bd8723a4b9e9e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  brickPrefab: {fileID: 0}
+  rockPrefab: {fileID: 0}
 --- !u!4 &1485631534
 Transform:
   m_ObjectHideFlags: 0

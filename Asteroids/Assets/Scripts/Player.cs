@@ -13,7 +13,6 @@ public class Player : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        if (Input.GetKey(KeyCode.LeftArrow));
     }
     void Update()
     {
@@ -29,8 +28,13 @@ public class Player : MonoBehaviour
      {
             Vector3 velocity = rb.velocity;
             velocity = velocity + transform.right * Time.deltaTime * moveSpeed;
+            Vector3.ClampMagnitude(velocity, maxSpeed);
+            rb.velocity = velocity;
      }
-     //if()
+     if (Input.GetKey(KeyCode.Space))
+        {
+            Instantiate(bulletPrefab, transform.position, transform.rotation);
+        }
     }
 
 

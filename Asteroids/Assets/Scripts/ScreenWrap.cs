@@ -25,18 +25,18 @@ public class ScreenWrap : MonoBehaviour
         {
             transform.position = new Vector2(screenMin.x, y);
         }
-        //left side
+        //Right side
         if (x < screenMin.x)
         {
             transform.position = new Vector2(screenMax.x, y);
         }
-        //left side
-        if (y > screenMax.x)
+        //Top side
+        if (y > screenMax.y)
         {
             transform.position = new Vector2(x, screenMin.y);
         }
-        //left side
-        if (y > screenMin.x)
+        //Bottom side
+        if (y < screenMin.y)
         {
             transform.position = new Vector2(x, screenMax.y);
         }

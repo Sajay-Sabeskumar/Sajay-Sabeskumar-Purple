@@ -34,4 +34,21 @@ public class Movement : MonoBehaviour
         rb.MovePosition(position + translation);
 
     }
+    private bool Occupied(Vector2 newDirection)
+    {
+        RaycastHit2D hit = Physics2D.BoxCast(transform.position, Vector2.one * 0.75f, 0f, newDirection, 1.5f, obstacleLayer);
+        return hit.collider != null;
+    }
+    private void SetDirection(Vector2 newDirection)
+    {
+        if (!Occupied(newDirection))
+        {
+           direction = newDirection;
+            nextDirection = Vector2.zero;
+        }
+        else
+        {
+            nextDirection = newDirection;
+        }
+    }
 }

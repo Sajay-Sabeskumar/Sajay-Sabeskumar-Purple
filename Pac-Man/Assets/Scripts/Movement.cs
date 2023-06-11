@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public abstract class Movement : MonoBehaviour
 {
     public float speed;
     public Vector2 intialDirection;
@@ -23,7 +23,12 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (nextDirection != Vector2.zero)
+        {
+            SetDirection(nextDirection);
+        }
+
+        ChildUpdate();
     }
 
     private void FixedUpdate()
@@ -39,7 +44,7 @@ public class Movement : MonoBehaviour
         RaycastHit2D hit = Physics2D.BoxCast(transform.position, Vector2.one * 0.75f, 0f, newDirection, 1.5f, obstacleLayer);
         return hit.collider != null;
     }
-    private void SetDirection(Vector2 newDirection)
+    protected void SetDirection(Vector2 newDirection)
     {
         if (!Occupied(newDirection))
         {
@@ -51,4 +56,6 @@ public class Movement : MonoBehaviour
             nextDirection = newDirection;
         }
     }
-}
+    abstract protected void ChildUpdate();
+} 
+

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8368690750992344509}
   - component: {fileID: 8368690750992344508}
   - component: {fileID: 8368690750992344451}
+  - component: {fileID: 331719557942744054}
   m_Layer: 0
   m_Name: Power Pellet
   m_TagString: Untagged
@@ -111,3 +112,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &331719557942744054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8368690750992344450}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 517e0fc48efae994fa5e545917a9adc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

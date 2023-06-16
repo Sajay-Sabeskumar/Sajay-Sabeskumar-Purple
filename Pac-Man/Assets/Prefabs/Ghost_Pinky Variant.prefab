@@ -9,19 +9,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1067301175548325325, guid: 0d2ae86d29bafd34686addf977aaa870, type: 3}
       propertyPath: m_Color.b
-      value: 0.42352945
+      value: 0.81266737
       objectReference: {fileID: 0}
     - target: {fileID: 1067301175548325325, guid: 0d2ae86d29bafd34686addf977aaa870, type: 3}
       propertyPath: m_Color.g
-      value: 0.42352945
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1067301175548325325, guid: 0d2ae86d29bafd34686addf977aaa870, type: 3}
       propertyPath: m_Color.r
-      value: 0.42352945
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7889400777023534527, guid: 0d2ae86d29bafd34686addf977aaa870, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0.82950974
       objectReference: {fileID: 0}
     - target: {fileID: 7889400777023534527, guid: 0d2ae86d29bafd34686addf977aaa870, type: 3}
       propertyPath: m_Color.g
@@ -29,7 +29,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7889400777023534527, guid: 0d2ae86d29bafd34686addf977aaa870, type: 3}
       propertyPath: m_Color.r
-      value: 0.8713608
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7889400777097204213, guid: 0d2ae86d29bafd34686addf977aaa870, type: 3}
       propertyPath: m_RootOrder
@@ -77,7 +77,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7889400777097204215, guid: 0d2ae86d29bafd34686addf977aaa870, type: 3}
       propertyPath: m_Name
-      value: Ghost Pinky
+      value: Ghost_Pinky Variant
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0d2ae86d29bafd34686addf977aaa870, type: 3}

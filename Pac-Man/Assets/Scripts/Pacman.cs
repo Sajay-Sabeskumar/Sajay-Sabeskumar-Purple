@@ -13,6 +13,7 @@ public class Pacman : Movement
         {
             SetDirection(new Vector2(horizontal, vertical));
         }
+        transform.right = direction;
    }
     
 }

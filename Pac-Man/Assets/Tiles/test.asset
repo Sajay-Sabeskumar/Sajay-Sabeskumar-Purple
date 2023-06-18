@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9d1514134bc4fbd41bb739b1b9a49231, type: 3}
-  m_Name: Pellet_Tile
+  m_Name: test
   m_EditorClassIdentifier: 
   m_DefaultSprite: {fileID: 21300000, guid: fbff7d91e33937d40ae66faf9fe580d1, type: 3}
   m_DefaultGameObject: {fileID: 2938164031996371158, guid: 8559832086cadf249a861a88ee8493c1, type: 3}
